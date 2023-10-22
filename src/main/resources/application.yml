@@ -15,7 +15,12 @@ mybatis:
   mapper-locations: classpath:/mybatis/*.xml   #   xml文件
 
 
-
+logging:
+  file:
+    name: log/log.log
+  level:
+    root: info
+    afe1: debug
 
 
 
